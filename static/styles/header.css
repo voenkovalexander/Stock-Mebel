@@ -1,0 +1,328 @@
+.header{
+    width: 1920px;
+    height: 714px;
+    border-radius: 0px 0px 0px 60px;
+    background: #F5F3F2;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* top-header */
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    background: #FFF;
+}
+
+.top-header>img{
+    width: 237px;
+    height: 52px;
+    margin-right: 158px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 146px;
+}
+
+.email>span{
+    color: var(--Blue, #252B41);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.8px;
+}
+
+.tel-numbers{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tel-numbers>div{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.tel-numbers>div>span{
+    color: var(--Blue, #252B41);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    letter-spacing: -0.8px;
+}
+
+/* mid-header */
+
+
+
+.mid-header-text{
+    position: relative;
+    top: 143px;
+    left: 358px;
+    /* bottom: 0px; */
+    right: 934px;
+    display: flex;
+    width: 628px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.m-h-text{
+    display: flex;
+    width: 628px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.m-h-text>h1{
+    color: var(--Blue, #252B41);
+    width: 769px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -4px;
+}
+
+.m-h-text>p{
+    color: var(--Blue, #252B41);
+    font-family: 'Golos Text', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -1.1px;
+}
+
+.m-h-button{
+    display: flex;
+    padding: 12px 40px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Red, #F0243F);
+}
+
+.m-h-button>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.m-h-button>div>i{
+    background-color: white; 
+    border-radius: 100%;
+}
+
+.m-h-button>div>span{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.9px;
+    color: var(--White, #FFF);
+    text-align: center;
+
+}
+
+/* большой стул */
+
+.main-chair{
+    width: 700px;
+    /* height: 700px; */
+    height: 588px;
+    flex-shrink: 0;
+    position: relative;
+    left: 520px;
+    bottom: 423px;
+    overflow: hidden;
+}
+
+.ellipses{
+    width: 686.337px;
+    height: 730.333px;
+    flex-shrink: 0;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.ell1{
+    width: 686.337px;
+    height: 730.333px;
+    flex-shrink: 0;
+    border-radius: 730.333px;
+    background: #EBE8E6;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.ell2{
+    width: 628.072px;
+    height: 668.333px;
+    flex-shrink: 0;
+    border-radius: 668.333px;
+    border: 1px solid #9498A5;
+    position: relative;
+    z-index: 2;
+    left: 29px;
+    bottom: 95%;
+    overflow: hidden;
+}
+
+.ell3{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    fill: var(--Inputs, #9498A5);
+    position: relative;
+    z-index: 3;
+    /* bottom: 1100.66px;
+    left: 25.5px; */
+}
+
+.ell4{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0; 
+    fill: var(--Inputs, #9498A5);
+    position: relative;
+    z-index: 3;
+    bottom: 1330.66px;
+    left: 158px;
+}
+
+.ell5{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    fill: var(--Inputs, #9498A5);
+    position: relative;
+    z-index: 3;
+    bottom: 1200.66px;
+    left: 628px;
+}
+
+.main-chair>img{
+    position: relative;
+    bottom: 730px;
+    right: 10px;
+    object-fit: cover;
+    width: 591px;
+    height: 588px;
+    flex-shrink: 0;
+    z-index: 3;
+}
+
+.m-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: rgba(240, 36, 63, 0.60);
+    backdrop-filter: blur(20px);
+    position: relative;
+    bottom: 1050px;
+    left: 10px;
+    z-index: 4;
+}
+
+.m-box1>span{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.9px;
+}
+
+.m-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: rgba(37, 43, 65, 0.50);
+    backdrop-filter: blur(20px);
+    position: relative;
+    bottom: 1330px;
+    left: 160px;
+    z-index: 4;
+}
+
+.m-box2>span{
+    width: 167px;
+    height: 40px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.9px;
+}
+
+.m-box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: rgba(240, 36, 63, 0.60);
+    backdrop-filter: blur(20px);
+    position: relative;
+    left: 510px;
+    bottom: 1250px;
+    z-index: 4;
+}
+
+.m-box3>span{
+    width: 92px;
+    height: 40px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.9px;
+}
+
+
+
+
